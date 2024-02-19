@@ -21,14 +21,14 @@ public class firstNotRepitingVowel {
             }
 
         }
-        if (str.contains(temp) && !temp.isEmpty()) return str.indexOf(temp);
+        if (!temp.isEmpty()) return str.indexOf(temp);
         else return -1;
     }
 
     public static void main(String[] args) {
 
 
-            String str = "moodeellli";
+            String str = "mdddiooia";
             System.out.println(firstNonRepeatingVowel(str));
         }
     }
